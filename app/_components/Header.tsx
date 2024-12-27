@@ -16,13 +16,13 @@ export default function Header() {
 
       <ul className="menu">
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/about">About</Link>
         </li>
         <li>
           <Link href="/projects">Projects</Link>
         </li>
         <li>
-          <Link href="/about">About Me</Link>
+          <Link href="/about">Contact</Link>
         </li>
       </ul>
     </div>
