@@ -19,3 +19,17 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.header {
+  @apply flex items-center justify-between bg-transparent max-w-[2560px] h-[110px] w-full px-10 bg-[#09121b]
+}
+.header-logo {
+  @apply object-contain max-w-8 h-8
+}
+.header-icon {
+  @apply object-cover w-full h-full 
+}
+
+.menu {
+  @apply flex items-center space-x-4 cursor-pointer
+}
