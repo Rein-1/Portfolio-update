@@ -24,7 +24,7 @@ body {
   @apply flex items-center justify-between bg-transparent max-w-[2560px] h-[110px] w-full px-10 hover:bg-[#09121b]
 }
 .header-logo {
-  @apply object-contain max-w-8 h-8
+  @apply object-contain max-w-36 h-6
 }
 .header-icon {
   @apply object-cover w-full h-full 

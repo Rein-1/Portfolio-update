@@ -1,4 +1,4 @@
-export const logo = {
-    src: 'assets/logo.png',
-    alt: 'logo'
+export const hero = {
+    img: 'assets/hero.jpg',
+    alt: 'Person Portfolio',
 }

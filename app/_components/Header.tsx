@@ -1,17 +1,10 @@
 import Link from "next/link";
-import { logo } from "../_constants/Constants";
 
 export default function Header() {
   return (
     <div className="header">
       <div className="header-logo">
-        <img
-          src={logo.src}
-          alt={logo.alt}
-          width={30}
-          height={50}
-          className="header-icon"
-        />
+        <h2 className="text-3xl">Rein-Dev</h2>
       </div>
 
       <ul className="menu">
